@@ -3,13 +3,13 @@ import serial
 import pynmea2
 
 firebaseConfig={
-  "apiKey": "AIzaSyCiBYgnFxAXKBRIgxO-rUEJyMDTFbH5PHs",
-  "authDomain": "wheel-f5238.firebaseapp.com",
-  "databaseURL": "https://wheel-f5238-default-rtdb.firebaseio.com",
-  "projectId": "wheel-f5238",
-  "storageBucket": "wheel-f5238.appspot.com",
-  "messagingSenderId": "851756482678",
-  "appId": "1:851756482678:web:28cfcdbeb18eeab3b1df57"
+  "apiKey": "",
+  "authDomain": "",
+  "databaseURL": "",
+  "projectId": "",
+  "storageBucket": "",
+  "messagingSenderId": "",
+  "appId": ""
     }
 
 firebase=pyrebase.initialize_app(firebaseConfig)
